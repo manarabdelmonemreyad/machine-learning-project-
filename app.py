@@ -21,15 +21,15 @@ st.set_page_config(page_title="CKD Risk Predictor", page_icon="🩺", layout="ce
 
 @st.cache_resource
 def load_artifacts():
-    with open("models/best_model.pkl", "rb") as f:
+    with open("best_model.pkl", "rb") as f:
         model = pickle.load(f)
-    with open("models/scaler.pkl", "rb") as f:
+    with open("scaler.pkl", "rb") as f:
         scaler = pickle.load(f)
-    with open("models/label_encoders.pkl", "rb") as f:
+    with open("label_encoders.pkl", "rb") as f:
         encoders = pickle.load(f)
-    with open("models/selected_features.json") as f:
+    with open("selected_features.json") as f:
         selected_features = json.load(f)
-    with open("models/feature_medians.json") as f:
+    with open("feature_medians.json") as f:
         medians = json.load(f)
     return model, scaler, encoders, selected_features, medians
 
