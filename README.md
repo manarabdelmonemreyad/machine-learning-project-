@@ -64,4 +64,5 @@ this repo → main file `app.py` → Deploy. Add the resulting public URL here:
 * Streamlit documentation — `https://docs.streamlit.io`
 
 The app link: https://ckdproject.streamlit.app/
+video presentation: https://drive.google.com/file/d/1QLRNjTFML5v3WM9egyiUkE-c6fkJr4pK/view?usp=sharing
 
